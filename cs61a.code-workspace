@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "G:/cs61a"
+		},
+		{
+			"path": "G:/P4e"
+		},
+		{
+			"path": "S:/Meine Ablage/Informatik/8_DateEngineeringForDataScience/Übungsaufgaben"
+		}
+	],
+	"settings": {
+		"jupyter.jupyterServerType": "remote"
+	}
+}
