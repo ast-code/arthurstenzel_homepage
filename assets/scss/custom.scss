@@ -47,15 +47,3 @@
   list-style-position: outside; /* Positioniere das Aufzählungszeichen außerhalb des Textblocks */
   margin-left: 1.5em;           /* Etwas mehr Abstand links für die Liste */
 }
-
-@media (max-width: 600px) {
-  .video-container {
-      max-width: 320px;
-  }
-}
-
-@media (max-width: 400px) {
-  .video-container {
-      max-width: 280px;
-  }
-}
