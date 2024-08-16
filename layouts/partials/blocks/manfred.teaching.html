@@ -1,0 +1,26 @@
+{{ $ := .root }}
+{{ $page := .page }}
+{{ $block := .wcBlock }}
+{{ $title := $block.content.title | default "Default Title" }}
+{{ $courses := $block.content.courses }}
+
+<div class="row">
+  <!-- Linker Bereich: Titel -->
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>{{ $title | markdownify | emojify }}</h1>
+  </div>
+  
+  <!-- Rechter Bereich: Liste der Kurse -->
+  <div class="col-12 col-lg-8">
+    <ul class="course-list">
+      {{ range $course := $courses }}
+      <li class="course-item">
+        <span class="course-name">{{ $course.name }}</span><br>
+        <p class="course-description">{{ $course.free_text }}</p>
+      </li>
+      {{ else }}
+      <li class="course-item">No courses available.</li>
+      {{ end }}
+    </ul>
+  </div>
+</div>

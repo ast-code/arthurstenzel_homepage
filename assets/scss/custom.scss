@@ -1,0 +1,61 @@
+.home-section {
+    padding: 30px 0 30px 0;
+}
+
+.avatar-rectangular {
+  width: 300px;  // Definiere hier die Breite für den rechteckigen Avatar
+  height: 325px; // Definiere hier die Höhe für den rechteckigen Avatar
+  object-fit: cover; // Stellt sicher, dass das Bild den gesamten Bereich füllt
+  display: block;  // Verhindert unerwünschte Abstände durch Inline-Elemente
+  border-radius: 0; // Keine abgerundeten Ecken, um ein rechteckiges Aussehen zu gewährleisten
+}
+
+
+// Use smaller avatar size in About widget on small devices.
+@include media-breakpoint-down(sm) {
+  .wg-about .avatar {
+    width: 200px;
+    height: 217px;
+  }
+}
+
+/*************************************************
+ *  Teaching Courses Widget
+ **************************************************/
+
+.course-list {
+  list-style-type: circle; /* Verwende Kreis als Aufzählungszeichen */
+  padding-left: 20px;
+  margin: 0;
+}
+
+.course-item {
+  margin-bottom: 15px;
+  font-weight: normal !important; /* Normales Schriftgewicht für Kursnamen */
+  color: #0e0d0d !important;         /* Dunkleres Grau für Kursnamen */
+  font-size: 0.9rem;     /* Standard-Schriftgröße */
+}
+
+.course-description {
+  color: rgba(92, 91, 91, 0.651);         /* Helleres Grau für die Beschreibungen */
+  font-size: 0.75rem; /* Kleinere Schriftgröße für Beschreibungen */
+  margin-top: 0;       /* Kein zusätzlicher Abstand oberhalb der Beschreibung */
+  line-height: 1.4;    /* Leicht erhöhte Zeilenhöhe für bessere Lesbarkeit */
+}
+
+.course-list li {
+  list-style-position: outside; /* Positioniere das Aufzählungszeichen außerhalb des Textblocks */
+  margin-left: 1.5em;           /* Etwas mehr Abstand links für die Liste */
+}
+
+@media (max-width: 600px) {
+  .video-container {
+      max-width: 320px;
+  }
+}
+
+@media (max-width: 400px) {
+  .video-container {
+      max-width: 280px;
+  }
+}

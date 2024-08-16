@@ -7,9 +7,9 @@
 
 appearance:
   theme_day: minimal
-  theme_night: minimal
   font: minimal
   font_size: L
+  
 
 # SEO
 
@@ -37,7 +37,7 @@ header:
     align: l
     show_logo: true
     show_language: false
-    show_day_night: true
+    show_day_night: false
     show_search: true
     highlight_active_link: true
 
@@ -45,7 +45,7 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Arthur Stenzel. This work is licensed under {license}'
     license:
       enable: true
       allow_derivatives: false
@@ -75,7 +75,7 @@ features:
     branch: main
   avatar:
     gravatar: false
-    shape: circle
+    shape: rectangular #Es gibt 'square', 'circle' und meine eigens kreierte 'rectangular'
   comment:
     provider: ''
     disqus:

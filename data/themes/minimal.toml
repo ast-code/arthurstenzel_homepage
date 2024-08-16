@@ -1,0 +1,23 @@
+# Theme metadata
+name = "Minimal"
+
+[light]
+  # Primary
+  primary = "#053568"
+
+  # Menu
+  menu_primary = "#072c5c" #MANFRED: Ändert die Hintergrundfarbe der Navbar zu blau
+  menu_text = "#ffffff"
+  menu_text_active = "#2962ff"
+  menu_title = "#ffffff"
+
+  # Home sections
+  home_section_odd = "rgb(255, 255, 255)"
+  home_section_even = "rgb(247, 247, 247)"
+
+[dark]
+  # Primary
+  primary = "#bbdefb"
+
+  link = "#bbdefb"
+  link_hover = "#bbdefb"

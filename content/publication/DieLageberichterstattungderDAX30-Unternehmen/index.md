@@ -1,0 +1,74 @@
+---
+title: 'Die Lageberichterstattung der DAX 30-Unternehmen - eine empirische Analyse der Prognosegüte, IRZ Vol. 11, No. 1 (2016), 43-49'
+
+# Authors
+# If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
+# and it will be replaced with their full name and linked to their profile.
+authors:
+  - "with Dirk Hachmeister and Annike Bootsmann"
+
+# Author notes (optional)
+# author_notes:
+  # - 'Equal contribution'
+
+date: '2016-01-01T00:00:00Z'
+# doi: ''
+
+# Schedule page publish date (NOT publication's date).
+# publishDate: '2017-01-01T00:00:00Z'
+
+# Publication type.
+# Accepts a single type but formatted as a YAML list (for Hugo requirements).
+# Enter a publication type from the CSL standard.
+publication_types: ["Professional Publication"]
+
+# Publication name and optional abbreviated publication name.
+publication: "Zeitschrift für Internationale Rechnungslegung, Vol. 11, No. 1 (2016), 43-49"
+publication_short: "IRZ"
+
+abstract: "Die Prognoseberichterstattung als Teil des Lageberichts reduziert die Informationsasymmetrie zwischen Management und Abschlussadressaten. Die gesetzlichen Regelungen hierzu wurden mit dem DRS 20 überarbeitet. Ziel unseres Beitrags ist es, empirisch die Prognosegüte der DAX 30-Unternehmen zu untersuchen, um die Auswirkungen des DRS 20 diesbezüglich zu ermitteln. Wir stellen eine erhöhte Prognosegüte im Zeitablauf fest und identifizieren Verbesserungsbedarf für zukünftige Regelungen."
+
+# Summary. An optional shortened abstract.
+# summary: Lorem ipsum dolor sit amet
+
+# tags: []
+
+# Display this page in the Featured widget?
+# featured: false
+
+# Custom links (uncomment lines below)
+# links:
+# - name: Custom Link
+#   url: http://example.org
+
+# url_pdf: ''
+# url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
+# url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
+# url_poster: ''
+# url_project: ''
+# url_slides: ''
+# url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
+# url_video: 'https://youtube.com'
+
+# Featured image
+# To use, add an image named `featured.jpg/png` to your page's folder.
+# image:
+#   caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+#   focal_point: ''
+#   preview_only: false
+
+# Associated Projects (optional).
+#   Associate this publication with one or more of your projects.
+#   Simply enter your project's folder or file name without extension.
+#   E.g. `internal-project` references `content/project/internal-project/index.md`.
+#   Otherwise, set `projects: []`.
+# projects:
+#   - internal-project
+
+# Slides (optional).
+#   Associate this publication with Markdown slides.
+#   Simply enter your slide deck's filename without extension.
+#   E.g. `slides: "example"` references `content/slides/example/index.md`.
+#   Otherwise, set `slides: ""`.
+# slides: example
+---

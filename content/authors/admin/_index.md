@@ -1,9 +1,9 @@
 ---
 # Display name
-title: Assistant Professor of Accounting
+title: Arthur Stenzel
 
 # Name pronunciation (optional)
-name_pronunciation: Arthur Stenzel
+# name_pronunciation: Arthur Stenzel
 
 # Full name (for SEO)
 first_name: Arthur
@@ -17,7 +17,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: Associate Professor of Accounting
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -36,15 +36,17 @@ bio: I am Associate Professor of Accounting at the NHH - Norwegian School of Eco
 # Education to show in About widget
 academicemployment:
   courses:
-    - course: "Assistant Professor of Accounting & <br>Vice Director of the Institute of Accounting, Control and Auditing, <br>School of Management, University of St. Gallen"
-      institution: 2019 - now
+    - course: "Associate Professor of Accounting 
+      <br>Department of Accounting, Auditing and Law
+      <br>NHH - Norwegian School of Economics" 
+      institution: 2023 - now
       year: 
-    - course: Executive Director Ph.D. Programme in Management, <br>School of Management, University of St. Gallen
-      institution: 2017 - now
+    - course: "Assistant Professor of Accounting & 
+      <br>Executive Director Ph.D. Programme in Management 
+      <br>University of St. Gallen"
+      institution:  2019 - 2023 
       year: 
-    - course: Postdoctoral Research Fellow, <br>Chair of Accounting - Prof. Dr. Tami Dinh, <br>Institute of Accounting, Control and Auditing, School of Management, University of St. Gallen
-      institution: 2017 - 2019
-      year: 
+    
 
 education:
     courses:
@@ -123,5 +125,5 @@ social:
 highlight_name: true
 ---
 
-I am Assistant Professor of Accounting and the University of St.Gallen. My primary areas of interest are empirical research on corporate tax and private markets. More specifically, I examine the measurement of tax avoidance, the influence of taxation on corporate innovation, and the real effects of financial accounting regulation. Other research interests include data analysis of non-financial data, e.g., textual and social media data, as well as business forecasting.
-{style="text-align: justify;"}
+I am Associate Professor of Accounting at the NHH - Norwegian School of Economics. My primary areas of interest are empirical research on financial regulation, corporate tax, and private markets. More specifically, I examine the measurement of tax avoidance, the influence of taxation on corporate innovation, and the real effects of financial accounting regulation. Other research interests include data analysis of non-financial data, e.g., textual and social media data, as well as business forecasting.
+# {style="text-align: justify;"}
