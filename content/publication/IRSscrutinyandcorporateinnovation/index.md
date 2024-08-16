@@ -1,5 +1,5 @@
 ---
-title: 'IRS scrutiny and corporate innovation'
+title: 'IRS Scrutiny and Corporate Innovation'
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
@@ -31,18 +31,18 @@ abstract: "The IRS administers tax laws enacted by Congress. As part of the IRS'
 # Summary. An optional shortened abstract.
 # summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
 
-tags: 
-- Tax Avoidance
-- Tax Rate Avoidance
-- Tax Base Avoidance
-- Average Statutory Tax Rates
-- Effective Tax Rates
+# tags: 
+# - Tax Avoidance
+# - Tax Rate Avoidance
+# - Tax Base Avoidance
+# - Average Statutory Tax Rates
+# - Effective Tax Rates
 
 # Display this page in the Featured widget?
 # featured: false
 
 # Custom links (uncomment lines below)
-links:
+# links:
 # - name: Custom Link
 #   url: http://example.org
 
@@ -67,8 +67,8 @@ links:
 #   Simply enter your project's folder or file name without extension.
 #   E.g. `internal-project` references `content/project/internal-project/index.md`.
 #   Otherwise, set `projects: []`.
-projects:
-  - internal-project
+# projects:
+#   - internal-project
 
 # Slides (optional).
 #   Associate this publication with Markdown slides.
