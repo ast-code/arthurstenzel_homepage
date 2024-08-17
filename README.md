@@ -1,9 +1,19 @@
-# Arthur Stenzel's Academic Homepage
+# Arthur Stenzels Academic Homepage
 
 Willkommen auf meiner persönlichen akademischen Homepage, die mit dem Hugo Academic Theme erstellt wurde! 🎉 Hier kannst du meine neuesten Publikationen durchstöbern und mehr über meine Lehrtätigkeiten erfahren. 🚀  
-Die Seite wird über Netlify live geschaltet. Direkt zur Homepage geht es hier: [https://arthurstenzel-main.netlify.app/](https://arthurstenzel-main.netlify.app/)
+Die Seite wird über Netlify live geschaltet. 
 
-In dieser Readme wird zuerst die Ordnerstruktur von Hugo erklärt und dann wird auf Details eingegangen.
+Direkt zur Homepage geht es hier: [https://arthurstenzel-main.netlify.app/](https://arthurstenzel-main.netlify.app/)
+
+## Inhaltsverzeichnis
+
+1. [Ordnerstruktur von Hugo](#ordnerstruktur-von-hugo)
+2. [Neue Publikation hinzufügen](#1-neue-publikation-hinzufügen)
+3. [Bereich "Teaching" anpassen](#2-bereich-teaching-anpassen)
+4. [About-Widget aktualisieren](#3-about-widget-aktualisieren)
+5. [Contact-Widget aktualisieren](#4-contact-widget-aktualisieren)
+6. [Deployment](#5-deployment)
+7. [Offizielle Dokumentation](#6-offizielle-dokumentation)
 
 ## Ordnerstruktur von Hugo
 
@@ -78,7 +88,7 @@ Um das About-Widget zu aktualisieren, gehe folgendermaßen vor:
 1. **Konfigurationsdatei öffnen:** Gehe in das Verzeichnis `/content/admin` und öffne die Datei `_index.md`.
 2. **Anpassungen vornehmen:** Passe die erforderlichen Abschnitte an.
 
-### 3. Contact-Widget aktualisieren
+### 4. Contact-Widget aktualisieren
 
 Um das Contact-Widget zu aktualisieren, gehe folgendermaßen vor:
 
@@ -86,13 +96,13 @@ Um das Contact-Widget zu aktualisieren, gehe folgendermaßen vor:
 2. **Contact-Widget-Sektion finden:** Scrolle ganz nach unten zu dem Abschnitt, der das `contact`-Widget definiert.
 3. **Änderungen vornehmen:** Passe die erforderlichen Zeilen an.
 
-### 4. Deployment
+### 5. Deployment
 
 Nach den Änderungen musst du die Seite erneut deployen, damit sie live geschaltet wird.
 
 Sobald die Änderungen gepusht sind, wird das Deployment automatisch auf Netlify ausgelöst.
 
-### 5. Offizielle Dokumentation
+### 6. Offizielle Dokumentation
 
 The Hugo **Academic Resumé Template** empowers you to easily create your job-winning online resumé, showcase your academic publications, and create online courses or knowledge bases to grow your audience.
 
