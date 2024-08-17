@@ -1,6 +1,9 @@
 # Arthur Stenzel's Academic Homepage
 
-Willkommen auf meiner persönlichen akademischen Homepage, die mit dem Hugo Academic Theme erstellt wurde! 🎉 Hier kannst du meine neuesten Publikationen durchstöbern und mehr über meine Lehrtätigkeiten erfahren. 🚀
+Willkommen auf meiner persönlichen akademischen Homepage, die mit dem Hugo Academic Theme erstellt wurde! 🎉 Hier kannst du meine neuesten Publikationen durchstöbern und mehr über meine Lehrtätigkeiten erfahren. 🚀  
+Die Seite wird über Netlify live geschaltet. Direkt zur Homepage geht es hier: [https://arthurstenzel-main.netlify.app/](https://arthurstenzel-main.netlify.app/)
+
+In dieser Readme wird zuerst die Ordnerstruktur von Hugo erklärt und dann wird auf Details eingegangen.
 
 ## Ordnerstruktur von Hugo
 
@@ -22,7 +25,6 @@ Um die Struktur und Anpassungsmöglichkeiten deiner Hugo-Website besser zu verst
 - **`/config/`**: Hier liegen die Konfigurationsdateien für deine Seite, meist in Form von `config.yaml`, `config.toml` oder `config.json`. Diese Dateien steuern allgemeine Einstellungen deiner Website wie Seitentitel, Sprachoptionen und Taxonomien.
 
 Diese Struktur macht Hugo flexibel und leistungsfähig, da sie es dir erlaubt, Inhalt und Layout klar voneinander zu trennen und so Anpassungen einfach und effizient vorzunehmen.
-
 
 ### 1. Neue Publikation hinzufügen
 
@@ -69,13 +71,28 @@ Um den Bereich "Teaching" zu aktualisieren:
     ---
     ```
 
-### 3. Deployment
+### 3. About-Widget aktualisieren
+
+Um das About-Widget zu aktualisieren, gehe folgendermaßen vor:
+
+1. **Konfigurationsdatei öffnen:** Gehe in das Verzeichnis `/content/admin` und öffne die Datei `_index.md`.
+2. **Anpassungen vornehmen:** Passe die erforderlichen Abschnitte an.
+
+### 3. Contact-Widget aktualisieren
+
+Um das Contact-Widget zu aktualisieren, gehe folgendermaßen vor:
+
+1. **Konfigurationsdatei öffnen:** Gehe in das Verzeichnis `/content/` und öffne die Datei `_index.md`.
+2. **Contact-Widget-Sektion finden:** Scrolle ganz nach unten zu dem Abschnitt, der das `contact`-Widget definiert.
+3. **Änderungen vornehmen:** Passe die erforderlichen Zeilen an.
+
+### 4. Deployment
 
 Nach den Änderungen musst du die Seite erneut deployen, damit sie live geschaltet wird.
 
 Sobald die Änderungen gepusht sind, wird das Deployment automatisch auf Netlify ausgelöst.
 
-### 4. Offizielle Dokumentation
+### 5. Offizielle Dokumentation
 
 The Hugo **Academic Resumé Template** empowers you to easily create your job-winning online resumé, showcase your academic publications, and create online courses or knowledge bases to grow your audience.
 

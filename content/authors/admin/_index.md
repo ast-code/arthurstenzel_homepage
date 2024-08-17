@@ -47,7 +47,6 @@ academicemployment:
       institution:  2019 - 2023 
       year: 
     
-
 education:
     courses:
     - course: Doctoral Studies (Dr. oec.) in Business Administration
