@@ -1,12 +1,83 @@
-# [Hugo Academic CV Theme](https://github.com/HugoBlox/theme-academic-cv)
+# Arthur Stenzel's Academic Homepage
 
-[![Screenshot](./preview.png)](https://hugoblox.com/templates/)
+Willkommen auf meiner persönlichen akademischen Homepage, die mit dem Hugo Academic Theme erstellt wurde! 🎉 Hier kannst du meine neuesten Publikationen durchstöbern und mehr über meine Lehrtätigkeiten erfahren. 🚀
+
+## Ordnerstruktur von Hugo
+
+Um die Struktur und Anpassungsmöglichkeiten deiner Hugo-Website besser zu verstehen, hier eine kurze Erklärung der wichtigsten Verzeichnisse:
+
+- **`/content/`**: Hier liegen alle Inhalte deiner Seite, z. B. Blogposts, Seiten, Publikationen. Neue Inhalte werden hier als Markdown-Dateien organisiert.
+  - **`/publication/`**: In diesem Unterverzeichnis legst du alle deine Publikationen ab. Jeder Ordner innerhalb dieses Verzeichnisses repräsentiert eine einzelne Publikation.
+  - **`/teaching/`**: Enthält Inhalte, die mit dem Bereich "Teaching" verbunden sind. Hier kannst du Lehrveranstaltungen und Materialien verwalten.
+
+- **`/layouts/`**: In diesem Verzeichnis liegen die Vorlagen (Templates), die bestimmen, wie deine Inhalte angezeigt werden. Wenn du das Design oder Layout ändern möchtest, bearbeite oder erstelle Dateien in diesem Verzeichnis.
+  - **`/partials/`**: Enthält wiederverwendbare Teile von Templates, die auf verschiedenen Seiten eingebunden werden, z. B. Kopf- oder Fußzeilen.
+
+- **`/static/`**: Alle Dateien in diesem Ordner werden unverändert in den `public`-Ordner kopiert. Hier liegen z. B. Bilder, PDFs, CSS- oder JavaScript-Dateien.
+
+- **`/assets/`**: Hier kannst du Dateien ablegen, die Hugo während des Builds verarbeitet, wie z. B. SCSS-Dateien oder JavaScript-Module. Diese Dateien können komprimiert, kombiniert oder anderweitig verarbeitet werden, bevor sie in den `static`-Ordner kopiert werden.
+
+- **`/data/`**: Enthält strukturierte Daten im YAML-, JSON- oder TOML-Format, die du in deinen Templates verwenden kannst. Beispielsweise könntest du hier eine Liste von Personen oder Projekten ablegen.
+
+- **`/config/`**: Hier liegen die Konfigurationsdateien für deine Seite, meist in Form von `config.yaml`, `config.toml` oder `config.json`. Diese Dateien steuern allgemeine Einstellungen deiner Website wie Seitentitel, Sprachoptionen und Taxonomien.
+
+Diese Struktur macht Hugo flexibel und leistungsfähig, da sie es dir erlaubt, Inhalt und Layout klar voneinander zu trennen und so Anpassungen einfach und effizient vorzunehmen.
+
+
+### 1. Neue Publikation hinzufügen
+
+Um ein neues Paper hinzuzufügen, gehe folgendermaßen vor:
+
+1. **Neuen Ordner erstellen:** Erstelle einen neuen Ordner im Verzeichnis `/content/publication/`.
+2. **Markdown-Datei erstellen:** Erstelle eine neue Markdown-Datei im neuen Ordner, z. B. `index.md`.
+3. **Front Matter anpassen:** Fülle die `index.md` mit den entsprechenden Metadaten (Titel, Datum, Autoren, etc.). Hier ist ein Beispiel:
+
+    ```yaml
+    ---
+    title: "Titel der Publikation"
+    authors: 
+        - with XYZ
+    date: '2021-08-01T00:00:00Z'
+    doi: '10.1016/j.jacceco.2021.101406'
+    publication_types: ["Publication"] # Möglichkeiten sind hier: "Publication", "Working Paper" oder "Professional Publication"
+    publication: "Journal of Accounting and Economics, 72(1) "
+    publication_short: "J. Account. Econ."
+    abstract: "Lorem Ipsum Dolor Sit amet"
+    youtube_link: 'https://www.youtube.com/watch?v=SEPEqh_kFV8'
+    tags: 
+        - Tax Avoidance
+    ---
+    ```
+
+4. **Optional: Weitere Dateien hinzufügen:** Füge zusätzliche Dateien wie PDF-Versionen oder BibTeX-Einträge in denselben Ordner hinzu.
+
+### 2. Bereich "Teaching" anpassen
+
+Um den Bereich "Teaching" zu aktualisieren:
+
+1. **`_index.md` bearbeiten:** Gehe zum Verzeichnis `content` und öffne die Datei `_index.md`.
+2. **Anpassungen vornehmen:** Passe den Inhalt an, um neue Kurse, Workshops oder Lehrmaterialien hinzuzufügen.
+
+    ```yaml
+    ---
+    title: "Teaching"
+    courses:
+      - name: "Kurs 1"
+        free_text: "Beschreibung von Kurs 1."
+      - name: "Kurs 2"
+        free_text: "Beschreibung von Kurs 2."
+    ---
+    ```
+
+### 3. Deployment
+
+Nach den Änderungen musst du die Seite erneut deployen, damit sie live geschaltet wird.
+
+Sobald die Änderungen gepusht sind, wird das Deployment automatisch auf Netlify ausgelöst.
+
+### 4. Offizielle Dokumentation
 
 The Hugo **Academic Resumé Template** empowers you to easily create your job-winning online resumé, showcase your academic publications, and create online courses or knowledge bases to grow your audience.
-
-[![Get Started](https://img.shields.io/badge/-Get%20started-ff4655?style=for-the-badge)](https://hugoblox.com/templates/)
-[![Discord](https://img.shields.io/discord/722225264733716590?style=for-the-badge)](https://discord.com/channels/722225264733716590/742892432458252370/742895548159492138)  
-[![Twitter Follow](https://img.shields.io/twitter/follow/GetResearchDev?label=Follow%20on%20Twitter)](https://twitter.com/GetResearchDev)
 
 ️**Trusted by 250,000+ researchers, educators, and students.** Highly customizable via the integrated **no-code, Hugo Blox Builder**, making every site truly personalized ⭐⭐⭐⭐⭐
 
@@ -18,33 +89,6 @@ The integrated [**Hugo Blox Builder**](https://hugoblox.com) and CMS makes it ea
 
 - 👉 [**Get Started**](https://hugoblox.com/templates/)
 - 📚 [View the **documentation**](https://docs.hugoblox.com/)
-- 💬 [Chat with the **Hugo Blox Builder community**](https://discord.gg/z8wNYzb) or [**Hugo community**](https://discourse.gohugo.io)
-- 🐦 Twitter: [@GetResearchDev](https://twitter.com/GetResearchDev) [@GeorgeCushen](https://twitter.com/GeorgeCushen) [#MadeWithHugoBlox](https://twitter.com/search?q=%23MadeWithHugoBlox&src=typed_query)
 - ⬇️ **Automatically import your publications from BibTeX** with the [Hugo Academic CLI](https://github.com/GetRD/academic-file-converter)
 - 💡 [Suggest an improvement](https://github.com/HugoBlox/hugo-blox-builder/issues)
 - ⬆️ **Updating?** View the [Update Guide](https://docs.hugoblox.com/reference/update/) and [Release Notes](https://github.com/HugoBlox/hugo-blox-builder/releases)
-
-## We ask you, humbly, to support this open source movement
-
-Today we ask you to defend the open source independence of the Hugo Blox Builder and themes 🐧
-
-We're an open source movement that depends on your support to stay online and thriving, but 99.9% of our creators don't give; they simply look the other way.
-
-### [❤️ Click here to become a GitHub Sponsor, unlocking awesome perks such as _exclusive academic templates and widgets_](https://github.com/sponsors/gcushen)
-
-<p align="center"><a href="https://hugoblox.com/templates/" target="_blank" rel="noopener"><img src="https://hugoblox.com/uploads/readmes/academic_logo_200px.png" alt="Hugo Academic Theme for Hugo Blox Builder"></a></p>
-
-## Demo image credits
-
-- [Unsplash](https://unsplash.com)
-
-## Latest news
-
-<!--START_SECTION:news-->
-
-- [Easily make an academic CV website to get more cites and grow your audience 🚀](https://hugoblox.com/blog/easily-make-academic-website/)
-- [What&#39;s new in v5.2?](https://hugoblox.com/blog/whats-new-in-v5.2/)
-- [What&#39;s new in v5.1?](https://hugoblox.com/blog/whats-new-in-v5.1/)
-- [Version 5.0 (February 2021)](https://hugoblox.com/blog/version-5.0-february-2021/)
-- [Version 5.0 Beta 3 (February 2021)](https://hugoblox.com/blog/version-5.0-beta-3-february-2021/)
-<!--END_SECTION:news-->
