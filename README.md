@@ -33,8 +33,6 @@ Dadurch können Widgets hinzugefügt oder bestehende verändert werden.
 
 - **`/assets/`**: Hier kannst du Dateien ablegen, die Hugo während des Builds verarbeitet, wie z. B. SCSS-Dateien oder JavaScript-Module. Diese Dateien können komprimiert, kombiniert oder anderweitig verarbeitet werden, bevor sie in den `static`-Ordner kopiert werden.
 
-- **`/data/`**: Enthält strukturierte Daten im YAML-, JSON- oder TOML-Format, die du in deinen Templates verwenden kannst. Beispielsweise könntest du hier eine Liste von Personen oder Projekten ablegen.
-
 - **`/config/`**: Hier liegen die Konfigurationsdateien für deine Seite, meist in Form von `config.yaml`, `config.toml` oder `config.json`. Diese Dateien steuern allgemeine Einstellungen deiner Website wie Seitentitel, Sprachoptionen und Taxonomien.
 
 Diese Struktur macht Hugo flexibel und leistungsfähig, da sie es dir erlaubt, Inhalt und Layout klar voneinander zu trennen und so Anpassungen einfach und effizient vorzunehmen.
