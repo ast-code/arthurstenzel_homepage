@@ -17,11 +17,14 @@ Direkt zur Homepage geht es hier: [https://arthurstenzel-main.netlify.app/](http
 
 ## Ordnerstruktur von Hugo
 
-Um die Struktur und Anpassungsmöglichkeiten deiner Hugo-Website besser zu verstehen, hier eine kurze Erklärung der wichtigsten Verzeichnisse:
+Für die Struktur und Anpassungsmöglichkeiten einer Hugo-Website, hier eine kurze Erklärung der wichtigsten Verzeichnisse:
+
+Die erforderlichen Module von Hugo werden beim kompilieren direkt von der github-Seite von Hugo-Blox geholt. Dies betrifft die meisten Inhalte in den Ordnern layouts, statis, assets und data.
+Hier auf der lokalen Seite liegen dort nur Dateien, die angepasst und verändert wurden. Beim Deployen werden die lokalen Dateien bevorzugt verwendet.
+Dadurch können Widgets hinzugefügt oder bestehende verändert werden. 
 
 - **`/content/`**: Hier liegen alle Inhalte deiner Seite, z. B. Blogposts, Seiten, Publikationen. Neue Inhalte werden hier als Markdown-Dateien organisiert.
   - **`/publication/`**: In diesem Unterverzeichnis legst du alle deine Publikationen ab. Jeder Ordner innerhalb dieses Verzeichnisses repräsentiert eine einzelne Publikation.
-  - **`/teaching/`**: Enthält Inhalte, die mit dem Bereich "Teaching" verbunden sind. Hier kannst du Lehrveranstaltungen und Materialien verwalten.
 
 - **`/layouts/`**: In diesem Verzeichnis liegen die Vorlagen (Templates), die bestimmen, wie deine Inhalte angezeigt werden. Wenn du das Design oder Layout ändern möchtest, bearbeite oder erstelle Dateien in diesem Verzeichnis.
   - **`/partials/`**: Enthält wiederverwendbare Teile von Templates, die auf verschiedenen Seiten eingebunden werden, z. B. Kopf- oder Fußzeilen.
