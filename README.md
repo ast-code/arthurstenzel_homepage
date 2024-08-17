@@ -24,10 +24,10 @@ Hier auf der lokalen Seite liegen dort nur Dateien, die angepasst und verändert
 Dadurch können Widgets hinzugefügt oder bestehende verändert werden. 
 
 - **`/content/`**: Hier liegen alle Inhalte deiner Seite, z. B. Blogposts, Seiten, Publikationen. Neue Inhalte werden hier als Markdown-Dateien organisiert.
-  - **`/publication/`**: In diesem Unterverzeichnis legst du alle deine Publikationen ab. Jeder Ordner innerhalb dieses Verzeichnisses repräsentiert eine einzelne Publikation.
+  - **`/content/publication/`**: In diesem Unterverzeichnis legst du alle deine Publikationen ab. Jeder Ordner innerhalb dieses Verzeichnisses repräsentiert eine einzelne Publikation.
 
 - **`/layouts/`**: In diesem Verzeichnis liegen die Vorlagen (Templates), die bestimmen, wie deine Inhalte angezeigt werden. Wenn du das Design oder Layout ändern möchtest, bearbeite oder erstelle Dateien in diesem Verzeichnis.
-  - **`/partials/`**: Enthält wiederverwendbare Teile von Templates, die auf verschiedenen Seiten eingebunden werden, z. B. Kopf- oder Fußzeilen.
+  - **`/layouts/partials/`**: Enthält wiederverwendbare Teile von Templates, die auf verschiedenen Seiten eingebunden werden, z. B. Kopf- oder Fußzeilen.
 
 - **`/static/`**: Alle Dateien in diesem Ordner werden unverändert in den `public`-Ordner kopiert. Hier liegen z. B. Bilder, PDFs, CSS- oder JavaScript-Dateien.
 
