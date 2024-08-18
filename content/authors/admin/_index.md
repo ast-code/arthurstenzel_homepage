@@ -107,12 +107,14 @@ social:
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.ch/citations?hl=en&user=zMS3tsQAAAAJ
-  - icon: ssrn # Alternatively, use `google-scholar` icon from `ai` icon pack
-    icon_pack: ai
-    link: https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2113566
+<<<<<<< HEAD
+>>>>>>> parent of af61204 (Update _index.md)
 #   label: Follow me on Twitter
 #   display:
 #     header: true
+  - icon: ssrn # Alternatively, use `google-scholar` icon from `ai` icon pack
+    icon_pack: ai
+    link: https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2113566
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
