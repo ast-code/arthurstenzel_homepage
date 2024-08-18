@@ -107,7 +107,7 @@ social:
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.ch/citations?hl=en&user=zMS3tsQAAAAJ
- - icon: ssrn # Alternatively, use `google-scholar` icon from `ai` icon pack
+  - icon: ssrn # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: ai
     link: https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=2113566
 #   label: Follow me on Twitter
