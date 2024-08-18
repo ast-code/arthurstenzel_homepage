@@ -26,7 +26,7 @@ main:
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
   - name: CV
-    url: https://www.dropbox.com/s/5pl2yzk8f0y0zid/Arthur_Stenzel_CV_short.pdf?dl=0
+    url: https://www.dropbox.com/scl/fi/k19whzzsy9vytd4jf8vm5/Arthur_Stenzel_CV_short.pdf?rlkey=j5apc1c52bjvlzve1f38oi95z&st=d1lp7ifz&dl=0
     weight: 50
   - name: AAL-NHH
     url: https://www.nhh.no/en/employees/faculty/arthur-stenzel/
