@@ -107,8 +107,7 @@ social:
   - icon: google-scholar
     icon_pack: ai
     link: https://scholar.google.ch/citations?hl=en&user=zMS3tsQAAAAJ
-<<<<<<< HEAD
->>>>>>> parent of af61204 (Update _index.md)
+
 #   label: Follow me on Twitter
 #   display:
 #     header: true
