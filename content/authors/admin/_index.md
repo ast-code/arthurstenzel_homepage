@@ -119,7 +119,7 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: https://www.dropbox.com/s/5pl2yzk8f0y0zid/Arthur_Stenzel_CV_short.pdf?dl=0
+    link: https://www.dropbox.com/scl/fi/k19whzzsy9vytd4jf8vm5/Arthur_Stenzel_CV_short.pdf?rlkey=j5apc1c52bjvlzve1f38oi95z&st=d1lp7ifz&dl=0
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
