@@ -5,7 +5,7 @@ title: 'IRS Scrutiny and Corporate Innovation'
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - with Nathan Goldman, Niklas Lampenius, Suresh Radhakrishnan, and Jose Elias Feres de Almeida
+  - with Nathan Goldman, Niklas Lampenius, Suresh Radhakrishnan, and Jose Elias Feres de Almeida (2024)
 
 # Author notes (optional)
 # author_notes:
@@ -15,7 +15,7 @@ date: '2023-09-13T00:00:00Z'
 doi: '10.1111/1911-3846.12905'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: "Spring 2014"
+#publishDate: "Spring 2014"
 
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
