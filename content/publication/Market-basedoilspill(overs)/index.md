@@ -5,7 +5,7 @@ title: 'Market-based oil spill (overs): Market reactions to the energy windfall 
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - with Kristian D Allee, Raffael Speitmann and Yuchen Wu
+  - with Kristian D Allee, Raffael Speitmann and Yuchen Wu (2024)
 
 # Author notes (optional)
 # author_notes:
@@ -23,7 +23,7 @@ doi: '10.1016/j.econlet.2024.111670'
 publication_types: ["Publication"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Economics Letters 238, 111670. Forthcoming"
+publication: "Economics Letters 238, May 2024."
 publication_short: "Economics Letters"
 
 abstract: "We investigate the market reaction to a windfall tax regulation announcement for oil and gas firms in the UK. We find that firms subject to the windfall tax experience a significant abnormal price effect of 6.0 to 7.3 %. The effect is concentrated among large and more profitable firms. The results also show that firms voluntarily disclose more precise information after the regulation to offset the negative abnormal price reaction at the windfall tax announcement date. Evidence suggests that these disclosures are largely effective at allaying the price effects associated with increased investor disagreement. Moreover, our analyses show that firms within the same industry experience a negative spillover effect and decreased investor demand associated with heightened policy uncertainty about the implementation of windfall tax regulation."
