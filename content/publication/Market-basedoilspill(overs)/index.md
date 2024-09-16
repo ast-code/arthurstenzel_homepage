@@ -5,7 +5,7 @@ title: 'Market-based oil spill (overs): Market reactions to the energy windfall 
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - with Kristian D Allee, Raffael Speitmann and Yuchen Wu (2024)
+  - with Kristian D Allee, Raffael Speitmann, and Yuchen Wu (2024)
 
 # Author notes (optional)
 # author_notes:
