@@ -23,7 +23,7 @@ doi: '10.1111/1911-3846.12905'
 publication_types: ["Publication"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Contemporary Accounting Research. Forthcoming"
+publication: "Contemporary Accounting Research, 41(1), 391-423."
 publication_short: "Contemp. Account. Res."
 
 abstract: "The IRS administers tax laws enacted by Congress. As part of the IRS's duties, they often consider taxpayers' financial statements to help ensure accurate tax reporting and payments. We posit that enhanced financial statement disclosures of tax information under FASB Interpretation Number 48 (FIN 48) lead to more IRS scrutiny and alter the incentives for corporate innovation. Using patent applications as a measure of corporate innovation, we employ a difference-in-differences research design with publicly listed US firms as the treatment group and privately held US firms not subject to the disclosure requirements as the control group. We find robust evidence that, following the onset of FIN 48, the number of patent applications by publicly listed firms decreased between 15.4% and 24.3% relative to private firms. This decline in patent applications is attributable to incremental innovation, suggesting that firms lower innovation related to projects with tax benefits that are more likely to be scrutinized by the taxing authorities. These findings suggest that there are real effects of IRS scrutiny and, in particular, real effects of tax disclosures under FIN 48 on corporate innovation."
