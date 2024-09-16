@@ -5,7 +5,7 @@ title: 'Measuring Corporate Tax Rate and Tax Base Avoidance of U.S.Domestic and 
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-  - with Terry J. Shevlin and Niklas Lampenius
+  - with Terry J. Shevlin and Niklas Lampenius (2021)
 
 # Author notes (optional)
 # author_notes:
@@ -23,7 +23,7 @@ doi: '10.1016/j.jacceco.2021.101406'
 publication_types: ["Publication"]
 
 # Publication name and optional abbreviated publication name.
-publication: "Journal of Accounting and Economics, 72(1) "
+publication: "Journal of Accounting and Economics, 72(1)."
 publication_short: "J. Account. Econ."
 
 abstract: "We develop an approach based on publicly available data to decompose and quantify tax avoidance into two separate components: tax rate avoidance and tax base avoidance. Our measures are based on the average statutory tax rate, which accounts for the statutory tax rates across all transactions of a firm. We illustrate and validate our measures using simulation data, the Tax Reform Act of 1986, the Tax Cuts and Jobs Act of 2017, changes in tax rate avoidance and tax base avoidance across time, bonus depreciation time periods, several sample splits of U.S. multinational and domestic firms, differences across industries, and firms operating in tax haven locations. The measures allow regulators and researchers to gain insights into these two conceptually different tax avoidance strategies."
