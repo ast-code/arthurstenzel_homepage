@@ -254,7 +254,7 @@ sections:
       title: "Teaching"  # Titel, der links angezeigt wird
       courses:
         - name: "Business Forecasting"
-          free_text: "(Fall Semester, Master in Accounting and Finance, University of St.Gallen)"
+          free_text: "(Fall Semester, Master in Accounting and Finance, University of St.Gallen_Norway)"
         - name: "Advanced Business Forecasting"
           free_text: "(Fall Semester, Master in Accounting and Finance, University of St.Gallen)"
         - name: "Selected Topics in Accounting"
