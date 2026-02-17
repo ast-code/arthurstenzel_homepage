@@ -253,10 +253,10 @@ sections:
     content:
       title: "Teaching"  # Titel, der links angezeigt wird
       courses:
-        - name: "Business Forecasting"
-          free_text: "(Fall Semester, Master in Accounting and Finance, University of St.Gallen)"
-        - name: "Advanced Business Forecasting"
-          free_text: "(Fall Semester, Master in Accounting and Finance, University of St.Gallen)"
+        - name: "Reporting & Auditing"
+          free_text: "(Spring Semester, Master in Accounting and Finance, University of St.Gallen)"
+        - name: "BUS476 Data Analysis for Business and Research"
+          free_text: "(Spring Semester, Mandatory Master's Course, NHH Norwegian School of Economics)"
         - name: "Selected Topics in Accounting"
           free_text: "(Fall Semester, Master in Accounting and Finance, University of St.Gallen)"
         - name: "Fundamentals in Accounting"
@@ -272,7 +272,7 @@ sections:
       # text: |-
       #   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
       # Contact (add or remove contact options as necessary)
-      email: arthur.stenzel[at]nhh.no
+      email: arthur.stenzel[at]unisg.ch
       # phone: 888 888 88 88
       # appointment_url: 'https://calendly.com'
       address:
@@ -316,5 +316,6 @@ sections:
     design:
       columns: '2'
 ---
+
 
 
