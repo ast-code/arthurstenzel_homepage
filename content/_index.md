@@ -276,12 +276,12 @@ sections:
       # phone: 888 888 88 88
       # appointment_url: 'https://calendly.com'
       address:
-        street: Hellevein 30
-        # city: Bergen
-        # region: Bergen
-        postcode: '5045 Bergen, Norway'
-        # country: Norway
-        # country_code: NO
+        street: Tigerbergstrasse 9
+        # city: St.Gallen
+        # region: St.Gallen
+        postcode: '9000 St.Gallen, Switzerland'
+        # country: Switzerland
+        # country_code: CH
       # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
       office_hours:
         - 'by appointment'
@@ -316,3 +316,4 @@ sections:
     design:
       columns: '2'
 ---
+
