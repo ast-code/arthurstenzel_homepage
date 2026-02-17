@@ -36,7 +36,7 @@ bio: I am Associate Professor of Financial Management at Institute for Accountin
 # Education to show in About widget
 academicemployment:
   courses:
-      - course: "Associate Professor of Financial Management 
+    - course: "Associate Professor of Financial Management 
       <br>Institute for Accounting, Controlling and Auditing
       <br>School of Management
       <br>University of St.Gallen" 
@@ -133,4 +133,5 @@ highlight_name: true
 
 I am Associate Professor of Financial Management at Institute for Accounting, Controlling and Auditing of the University of St.Gallen. My primary areas of interest are empirical research on financial regulation, corporate tax, and private markets. More specifically, I examine the measurement of tax avoidance, the influence of taxation on corporate innovation, and the real effects of financial accounting regulation. Other research interests include data analysis of non-financial data, e.g., textual and social media data, as well as business forecasting.
 # {style="text-align: justify;"}
+
 
