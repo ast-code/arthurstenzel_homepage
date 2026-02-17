@@ -25,7 +25,7 @@ organizations:
     url: https://www.nhh.no/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am Associate Professor of Financial Management at Institute for Accounting, Controlling and Auditing of the University of St.Gallen. My primary areas of interest are empirical research on financial regulation, corporate tax, and private markets. More specifically, I examine the measurement of tax avoidance, the influence of taxation on corporate innovation, and the real effects of financial accounting regulation. Other research interests include data analysis of non-financial data, e.g., textual and social media data, as well as business forecasting.
+bio: I am Associate Professor of Financial Management at the Institute for Accounting, Controlling and Auditing of the University of St.Gallen. My primary areas of interest are empirical research on financial regulation, corporate tax, and private markets. More specifically, I examine the measurement of tax avoidance, the influence of taxation on corporate innovation, and the real effects of financial accounting regulation. Other research interests include data analysis of non-financial data, e.g., textual and social media data, as well as business forecasting.
 
 # # Interests to show in About widget
 # interests:
@@ -130,8 +130,9 @@ social:
 highlight_name: true
 ---
 
-I am Associate Professor of Financial Management at Institute for Accounting, Controlling and Auditing of the University of St.Gallen. My primary areas of interest are empirical research on financial regulation, corporate tax, and private markets. More specifically, I examine the measurement of tax avoidance, the influence of taxation on corporate innovation, and the real effects of financial accounting regulation. Other research interests include data analysis of non-financial data, e.g., textual and social media data, as well as business forecasting.
+I am Associate Professor of Financial Management at the Institute for Accounting, Controlling and Auditing of the University of St.Gallen. My primary areas of interest are empirical research on financial regulation, corporate tax, and private markets. More specifically, I examine the measurement of tax avoidance, the influence of taxation on corporate innovation, and the real effects of financial accounting regulation. Other research interests include data analysis of non-financial data, e.g., textual and social media data, as well as business forecasting.
 # {style="text-align: justify;"}
+
 
 
 
