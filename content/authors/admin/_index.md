@@ -17,12 +17,12 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Associate Professor of Accounting
+role: Associate Professor of Financial Management
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: NHH - Norwegian School of Economics
-    url: https://www.nhh.no/
+  - name: University of St.Gallen
+    url: https://www.aca.unisg.ch/
 
 # Short bio (displayed in user profile at end of posts)
 bio: I am Associate Professor of Financial Management at the Institute for Accounting, Controlling and Auditing of the University of St.Gallen. My primary areas of interest are empirical research on financial regulation, corporate tax, and private markets. More specifically, I examine the measurement of tax avoidance, the influence of taxation on corporate innovation, and the real effects of financial accounting regulation. Other research interests include data analysis of non-financial data, e.g., textual and social media data, as well as business forecasting.
@@ -132,6 +132,7 @@ highlight_name: true
 
 I am Associate Professor of Financial Management at the Institute for Accounting, Controlling and Auditing of the University of St.Gallen. My primary areas of interest are empirical research on financial regulation, corporate tax, and private markets. More specifically, I examine the measurement of tax avoidance, the influence of taxation on corporate innovation, and the real effects of financial accounting regulation. Other research interests include data analysis of non-financial data, e.g., textual and social media data, as well as business forecasting.
 # {style="text-align: justify;"}
+
 
 
 
