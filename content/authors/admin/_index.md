@@ -25,7 +25,7 @@ organizations:
     url: https://www.nhh.no/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am Associate Professor of Accounting at the NHH - Norwegian School of Economics. My primary areas of interest are empirical research on financial regulation, corporate tax, and private markets. More specifically, I examine the measurement of tax avoidance, the influence of taxation on corporate innovation, and the real effects of financial accounting regulation. Other research interests include data analysis of non-financial data, e.g., textual and social media data, as well as business forecasting.
+bio: I am Associate Professor of Financial Management at Institute for Accounting, Controlling and Auditing of the University of St.Gallen. My primary areas of interest are empirical research on financial regulation, corporate tax, and private markets. More specifically, I examine the measurement of tax avoidance, the influence of taxation on corporate innovation, and the real effects of financial accounting regulation. Other research interests include data analysis of non-financial data, e.g., textual and social media data, as well as business forecasting.
 
 # # Interests to show in About widget
 # interests:
@@ -36,10 +36,16 @@ bio: I am Associate Professor of Accounting at the NHH - Norwegian School of Eco
 # Education to show in About widget
 academicemployment:
   courses:
+      - course: "Associate Professor of Financial Management 
+      <br>Institute for Accounting, Controlling and Auditing
+      <br>School of Management
+      <br>University of St.Gallen" 
+      institution: 2026 - now
+      year: 
     - course: "Associate Professor of Accounting 
       <br>Department of Accounting, Auditing and Law
       <br>NHH - Norwegian School of Economics" 
-      institution: 2023 - now
+      institution: 2023 - 2026
       year: 
     - course: "Assistant Professor of Accounting & 
       <br>Executive Director Ph.D. Programme in Management 
@@ -125,5 +131,6 @@ social:
 highlight_name: true
 ---
 
-I am Associate Professor of Accounting at the NHH - Norwegian School of Economics. My primary areas of interest are empirical research on financial regulation, corporate tax, and private markets. More specifically, I examine the measurement of tax avoidance, the influence of taxation on corporate innovation, and the real effects of financial accounting regulation. Other research interests include data analysis of non-financial data, e.g., textual and social media data, as well as business forecasting.
+I am Associate Professor of Financial Management at Institute for Accounting, Controlling and Auditing of the University of St.Gallen. My primary areas of interest are empirical research on financial regulation, corporate tax, and private markets. More specifically, I examine the measurement of tax avoidance, the influence of taxation on corporate innovation, and the real effects of financial accounting regulation. Other research interests include data analysis of non-financial data, e.g., textual and social media data, as well as business forecasting.
 # {style="text-align: justify;"}
+
