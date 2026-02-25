@@ -41,25 +41,6 @@ academicemployment:
       <br>University of St.Gallen" 
       institution: 2026 - now
       year:   
-    - course: "Associate Professor of Accounting 
-      <br>Department of Accounting, Auditing and Law
-      <br>NHH - Norwegian School of Economics" 
-      institution: 2023 - 2026
-      year: 
-    - course: "Assistant Professor of Accounting & 
-      <br>Executive Director Ph.D. Programme in Management 
-      <br>University of St. Gallen"
-      institution:  2019 - 2023 
-      year: 
-    
-education:
-    courses:
-    - course: Doctoral Studies (Dr. oec.) in Business Administration
-      institution: University of Hohenheim
-      year: 2017
-    - course: Dipl.Ökonom in Business Administration and Economics
-      institution: University of Hohenheim
-      year: 2012 
 
 # # Skills
 # # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -132,6 +113,7 @@ highlight_name: true
 
 I am Associate Professor of Financial Management at the Institute for Accounting, Controlling and Auditing of the University of St.Gallen. My primary areas of interest are empirical research on financial regulation, corporate tax, and private markets. More specifically, I examine the measurement of tax avoidance, the influence of taxation on corporate innovation, and the real effects of financial accounting regulation. Other research interests include data analysis of non-financial data, e.g., textual and social media data, as well as business forecasting.
 # {style="text-align: justify;"}
+
 
 
 
