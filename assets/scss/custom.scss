@@ -46,4 +46,17 @@
 .course-list li {
   list-style-position: outside; /* Positioniere das Aufzählungszeichen außerhalb des Textblocks */
   margin-left: 1.5em;           /* Etwas mehr Abstand links für die Liste */
+
+}
+
+/* Publication, WP, and Professional Publication links → black */
+.view-list-item a {
+  color: #000000 !important;
+}
+
+/* Force organization name to black */
+.author-notes .org-name,
+.wg-about .portrait-title .portrait-meta a,
+.wg-about .portrait-title h3 a {
+  color: #000000 !important;
 }
