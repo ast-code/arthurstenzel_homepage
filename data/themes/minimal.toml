@@ -3,12 +3,12 @@ name = "Minimal"
 
 [light]
   # Primary
-  primary = "#053568"
+  primary = "#00802f"
 
   # Menu
-  menu_primary = "#072c5c" #MANFRED: Ändert die Hintergrundfarbe der Navbar zu blau
+  menu_primary = "#00802f" #HSG green
   menu_text = "#ffffff"
-  menu_text_active = "#2962ff"
+  menu_text_active = "#d4edda"
   menu_title = "#ffffff"
 
   # Home sections
@@ -17,7 +17,7 @@ name = "Minimal"
 
 [dark]
   # Primary
-  primary = "#bbdefb"
+  primary = "#00802f"
 
-  link = "#bbdefb"
-  link_hover = "#bbdefb"
+  link = "#4caf50"
+  link_hover = "#66bb6a"
