@@ -54,9 +54,9 @@
   color: #000000 !important;
 }
 
-/* Force organization name to black */
-.author-notes .org-name,
-.wg-about .portrait-title .portrait-meta a,
-.wg-about .portrait-title h3 a {
+/* Force organization link under profile to black */
+.portrait-title a[href*="organization"],
+.portrait-title .portrait-meta a {
   color: #000000 !important;
 }
+
