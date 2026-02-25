@@ -3,10 +3,10 @@ name = "Minimal"
 
 [light]
   # Primary
-  primary = "#00802f"
+  primary = "#095f2d"
 
   # Menu
-  menu_primary = "#00802f" #HSG green
+  menu_primary = "#095f2d" #HSG green
   menu_text = "#ffffff"
   menu_text_active = "#d4edda"
   menu_title = "#ffffff"
@@ -17,7 +17,7 @@ name = "Minimal"
 
 [dark]
   # Primary
-  primary = "#00802f"
+  primary = "#095f2d"
 
   link = "#4caf50"
   link_hover = "#66bb6a"
