@@ -124,7 +124,7 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: https://www.dropbox.com/scl/fi/k19whzzsy9vytd4jf8vm5/Arthur_Stenzel_CV_short.pdf?rlkey=j5apc1c52bjvlzve1f38oi95z&st=d1lp7ifz&dl=0
+    link: uploads/CV.pdf
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
@@ -132,6 +132,7 @@ highlight_name: true
 
 I am Associate Professor of Financial Management at the Institute for Accounting, Controlling and Auditing of the University of St.Gallen. My primary areas of interest are empirical research on financial regulation, corporate tax, and private markets. More specifically, I examine the measurement of tax avoidance, the influence of taxation on corporate innovation, and the real effects of financial accounting regulation. Other research interests include data analysis of non-financial data, e.g., textual and social media data, as well as business forecasting.
 # {style="text-align: justify;"}
+
 
 
 
