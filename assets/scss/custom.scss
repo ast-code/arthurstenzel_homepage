@@ -1,10 +1,21 @@
 .home-section {
-    padding: 15px 0 15px 0;  /* was 30px 0 30px 0 */
+    padding: 30px 0 30px 0;
 }
 
-/* Reduce gap between header/navbar and first section */
+/* Reduce gap between navbar and first section */
 .page-body {
-  padding-top: 40px !important;  /* default is usually 70px; adjust to taste */
+  padding-top: 0px !important;
+  margin-top: 0px !important;
+}
+
+/* Tighter spacing between all sections */
+.home-section {
+  padding: 10px 0 10px 0;
+}
+
+/* Remove extra top margin on the first section (About) */
+.home-section:first-of-type {
+  padding-top: 0px;
 }
 
 .avatar-rectangular {
@@ -63,6 +74,7 @@
 .portrait-title h3 a {
   color: #000000 !important;
 }
+
 
 
 
