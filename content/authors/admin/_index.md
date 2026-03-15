@@ -41,6 +41,11 @@ academicemployment:
       <br>University of St.Gallen" 
       institution: 2026 - now
       year:   
+    - course: "Adjunct Professor 
+      <br>Department of Accounting, Accounting and Law
+      <br>NHH Norwegian School of Economics" 
+      institution: 2026 - now
+      year:         
 
 # # Skills
 # # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
