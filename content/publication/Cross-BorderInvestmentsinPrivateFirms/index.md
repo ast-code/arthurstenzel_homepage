@@ -20,10 +20,10 @@ date: '2022-04-01T00:00:00Z'
 # Publication type.
 # Accepts a single type but formatted as a YAML list (for Hugo requirements).
 # Enter a publication type from the CSL standard.
-publication_types: ['Working Paper']
+publication_types: ['Publication']
 
 # Publication name and optional abbreviated publication name.
-# publication: In *Hugo Blox Builder Conference*
+publication: "Management Science, forthcoming"
 # publication_short: In *ICW*
 
 abstract: "We examine whether the mandated convergence of local German GAAP with IFRS increases investment by foreign equity investors in German private firms. Exploiting a large-sample quasi-experimental setting, we document an average foreign ownership increase of 2 to 8 percent in firms affected by the accounting reform compared to our unaffected control firms. Based on our identification strategy, using both the unique setting and accounting system comparability (that is, the comparability of cash flows in the next period), we show that increased comparability can minimize challenges faced by investors in private firms. We also find that those investors more familiar with IFRS benefit more from the increased accounting comparability. In addition, the effect is stronger for firms with higher proprietary costs before the mandatory accounting comparability increase. Our findings are robust to alternative matching procedures and a placebo test. We provide evidence for ongoing discussions on the costs of separate accounting standards for private firms. We show significant benefits when private firms’ accounting becomes more (and not less) comparable to that of public firms."
