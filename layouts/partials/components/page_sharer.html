@@ -8,8 +8,11 @@
       {{ if in (slice "fab" "fas" "far" "fal") $pack }}
         {{ $pack_prefix = "fa" }}
       {{ end }}
-      {{ $link := replace .url "{url}" ($.Permalink | htmlEscape) }}
-      {{ $link = replace $link "{title}" ($.Title | htmlEscape) }}
+      {{ $link := replace .url "{url}" ($.Permalink | urlquery) }}
+      {{ $link = replace $link "{title}" ($.Title | urlquery) }}
+      {{ if strings.HasPrefix $link "mailto:" }}
+        {{ $link = replace $link "+" " " }}
+      {{ end }}
       <li>
         <a href="{{$link|safeURL}}" target="_blank" rel="noopener"
            class="share-btn-{{.id}}" aria-label="{{.icon}}">
