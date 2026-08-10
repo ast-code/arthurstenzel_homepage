@@ -75,6 +75,18 @@
   color: #000000 !important;
 }
 
+/* Chart card below a publication entry (front matter `list_image`) */
+.view-list-item .list-image {
+  margin: 0.6rem 0 0.4rem;
+  max-width: 560px;
+}
+
+.view-list-item .list-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
 
 
 

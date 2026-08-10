@@ -151,6 +151,8 @@ The Hugo Blox Builder theme provides default templates and data files via Go mod
 - `layouts/partials/blocks/about.biography.html` — Custom biography widget
 - `layouts/partials/blocks/collection.html` — Custom publication collection view
 - `layouts/partials/blocks/manfred.teaching.html` — Custom teaching courses widget
+- `layouts/partials/views/list.html` — Homepage list-item view; also renders an optional `list_image` front-matter field (chart card below an entry, e.g. the Cross-Border paper; image file in `static/media/`)
+- `layouts/publication/papersite.html` — Standalone interactive paper website for the Cross-Border paper, selected via `layout: papersite` front matter. A complete self-contained HTML document with no `{{ define }}` blocks, so Hugo renders it as-is without the theme's baseof shell. Source of truth is `outreach/website/index.html` in the Management Science replication-package project — edit there and re-copy (keep head meta: canonical/og:url/og:image), do not hand-edit the body here.
 
 ## Conventions for AI Assistants
 

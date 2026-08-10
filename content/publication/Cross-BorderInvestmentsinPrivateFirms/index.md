@@ -12,7 +12,10 @@ authors:
 #   - 'Equal contribution'
 
 date: '2026-03-05T00:00:00Z'
-# doi: ''
+doi: '10.1287/mnsc.2024.08765'
+
+# Render this page as the standalone interactive paper website (layouts/publication/papersite.html)
+layout: papersite
 
 # Schedule page publish date (NOT publication's date).
 # publishDate: '2017-01-01T00:00:00Z'
@@ -39,7 +42,14 @@ tags: []
 # Custom links (uncomment lines below)
 links:
 - name: SSRN
-  url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4098783
+  url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4575873
+
+# Chart card shown below this entry in the homepage Publications list (layouts/partials/views/list.html)
+list_image:
+  src: /media/crossborder-card.png
+  width: 1200
+  height: 630
+  alt: 'Chart: twelve difference-in-differences estimates of the reform effect on foreign ownership, +2.4 to +8.0 percentage points, all positive and statistically significant'
 
 # url_pdf: ''
 # url_code: 'https://github.com/HugoBlox/hugo-blox-builder'

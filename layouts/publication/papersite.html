@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Germany aligned private-firm accounting with IFRS in 2010; foreign ownership rose by 2–8 percentage points, an estimated EUR 3.8–12.5 billion in additional foreign investment. Interactive summary of Allee, Dinh &amp; Stenzel (Management Science).">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%93%8A%3C/text%3E%3C/svg%3E">
+<link rel="canonical" href="https://arthurstenzel.com/publication/cross-borderinvestmentsinprivatefirms/">
+<meta property="og:url" content="https://arthurstenzel.com/publication/cross-borderinvestmentsinprivatefirms/">
+<meta property="og:image" content="https://arthurstenzel.com/media/crossborder-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:title" content="How Accounting Comparability Attracts Foreign Investment in Private Firms">
+<meta property="og:description" content="Germany's 2010 accounting reform brought private firms an estimated EUR 3.8–12.5 billion in additional foreign investment. Research summary of Allee, Dinh &amp; Stenzel, Management Science.">
+<meta property="og:type" content="website">
+<title>How Accounting Comparability Attracts Foreign Investment in Private Firms — Allee, Dinh &amp; Stenzel</title>
+</head>
+<body>
+<!--ARTIFACT-START-->
+<style>
+:root{
+  --page:#F6F4EE; --card:#FBFAF6; --ink:#1E2321; --ink2:#55594F; --muted:#8A8D83;
+  --grid:#E5E3D9; --accent:#00802F; --accent-ink:#00662a; --wash:rgba(0,128,47,.10);
+  --deemph:#B9BDB2; --hair:#E0DDD2;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --page:#0E100F; --card:#161918; --ink:#F2F1EC; --ink2:#BEC2B8; --muted:#8A8D83;
+    --grid:#2B2E2B; --accent:#3DAE63; --accent-ink:#5BC07D; --wash:rgba(61,174,99,.14);
+    --deemph:#565A53; --hair:#242724;
+  }
+}
+:root[data-theme="dark"]{
+  --page:#0E100F; --card:#161918; --ink:#F2F1EC; --ink2:#BEC2B8; --muted:#8A8D83;
+  --grid:#2B2E2B; --accent:#3DAE63; --accent-ink:#5BC07D; --wash:rgba(61,174,99,.14);
+  --deemph:#565A53; --hair:#242724;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto} }
+body{
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  background:var(--page);color:var(--ink);line-height:1.55;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:var(--accent-ink)}
+.skip{position:absolute;left:-9999px;top:0;background:var(--accent);color:#fff;padding:8px 14px;z-index:10}
+.skip:focus{left:12px}
+.wrap{max-width:860px;margin:0 auto;padding:0 20px}
+
+/* top bar */
+.topbar{display:flex;justify-content:space-between;align-items:center;padding:16px 0;flex-wrap:wrap;gap:8px}
+.wordmark{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink2);font-weight:600}
+.wordmark b{color:var(--accent-ink)}
+.topctrl{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+#viewSwitch{display:flex;gap:6px}
+#viewSwitch button,#themeToggle{
+  background:var(--card);border:1px solid var(--hair);color:var(--ink2);
+  border-radius:20px;padding:6px 14px;font-size:13px;cursor:pointer;
+}
+#viewSwitch button[aria-pressed="true"]{background:var(--wash);border-color:var(--accent);color:var(--accent-ink);font-weight:600}
+#viewSwitch button:focus-visible,#themeToggle:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* forced layout views (buttons in the top bar; default follows the device) */
+:root[data-view="desktop"] .wrap{max-width:860px}
+:root[data-view="mobile"] .wrap{max-width:420px}
+:root[data-view="mobile"] .hero h1{font-size:30px}
+:root[data-view="mobile"] .hero .standfirst{font-size:16px}
+:root[data-view="mobile"] .heronum .num{font-size:44px}
+:root[data-view="mobile"] section.msg h2{font-size:23px}
+:root[data-view="mobile"] .how h2,:root[data-view="mobile"] .policy h2{font-size:21px}
+
+/* hero */
+.hero{padding:36px 0 40px;text-align:left}
+.hero h1{font-size:clamp(30px,5.4vw,46px);line-height:1.12;letter-spacing:-.015em;max-width:760px}
+.hero .standfirst{margin-top:14px;font-size:clamp(16px,2.4vw,19px);color:var(--ink2);max-width:680px}
+.heronum{margin-top:26px}
+.heronum .lede{font-size:14px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);font-weight:600}
+.heronum .num{font-size:clamp(44px,8vw,72px);font-weight:700;letter-spacing:-.02em;color:var(--accent-ink);line-height:1.05}
+.heronum .qual{margin-top:6px;font-size:15px;color:var(--ink2);max-width:560px}
+.scrollcue{margin-top:26px;font-size:13.5px;color:var(--muted)}
+
+/* sections */
+section.msg{padding:34px 0;border-top:1px solid var(--hair)}
+.kick{font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent-ink);font-weight:600}
+section.msg h2{font-size:clamp(23px,3.6vw,30px);line-height:1.2;margin-top:8px;max-width:700px;letter-spacing:-.012em}
+.standfirst2{margin-top:10px;font-size:16.5px;color:var(--ink2);max-width:660px}
+.chartcard{
+  background:var(--card);border:1px solid var(--hair);border-radius:14px;
+  padding:22px 22px 14px;margin-top:18px;
+}
+.charttitle{font-size:14.5px;font-weight:600;color:var(--ink2)}
+.chartsub{font-size:13px;color:var(--muted);margin-top:2px}
+figure{margin-top:6px}
+figure svg{width:100%;height:auto;display:block}
+.bodycopy{margin-top:14px;font-size:16px;color:var(--ink2);max-width:660px}
+.tabletwin{margin-top:12px;font-size:13.5px;color:var(--muted)}
+.tabletwin summary{cursor:pointer}
+.tabletwin table{margin-top:8px;border-collapse:collapse;width:100%;max-width:480px}
+.tabletwin th,.tabletwin td{
+  text-align:left;padding:5px 10px;border-bottom:1px solid var(--hair);
+  font-size:13.5px;color:var(--ink2);font-weight:400;
+}
+.viewtoggle{margin-top:14px;display:flex;gap:8px}
+.viewtoggle button{
+  background:none;border:1px solid var(--hair);color:var(--ink2);border-radius:16px;
+  padding:5px 14px;font-size:13.5px;cursor:pointer;
+}
+.viewtoggle button[aria-pressed="true"]{background:var(--wash);border-color:var(--accent);color:var(--accent-ink);font-weight:600}
+.viewtoggle button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+
+/* evidence + policy */
+.how{padding:34px 0;border-top:1px solid var(--hair)}
+.how h2{font-size:clamp(21px,3vw,26px)}
+.how details{background:var(--card);border:1px solid var(--hair);border-radius:12px;margin-top:14px;padding:16px 20px}
+.how summary{font-weight:600;cursor:pointer;font-size:16px}
+.how summary:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.how details p{margin-top:10px;font-size:15.5px;color:var(--ink2)}
+.policy{padding:34px 0;border-top:1px solid var(--hair)}
+.policy h2{font-size:clamp(21px,3vw,26px);max-width:660px}
+.pcards{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px;margin-top:22px}
+.pcard{background:var(--card);border:1px solid var(--hair);border-radius:12px;padding:18px 20px}
+.pcard h3{font-size:14px;letter-spacing:.06em;text-transform:uppercase;color:var(--accent-ink)}
+.pcard p{margin-top:8px;font-size:14.5px;color:var(--ink2)}
+
+/* footer */
+footer{border-top:1px solid var(--hair);padding:34px 0 44px;font-size:14.5px;color:var(--ink2)}
+footer .authors{margin-top:6px}
+footer .links{margin-top:14px;display:flex;flex-wrap:wrap;gap:18px}
+footer .cite{margin-top:18px;font-size:13px;color:var(--muted);max-width:720px}
+
+/* tooltip */
+#tip{
+  position:fixed;pointer-events:none;background:var(--ink);color:var(--page);
+  font-size:13px;padding:7px 11px;border-radius:8px;max-width:260px;
+  opacity:0;transition:opacity .12s;z-index:20;line-height:1.4;
+}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.vh{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+</style>
+
+<a class="skip" href="#m1">Skip to content</a>
+<div class="wrap">
+  <div class="topbar">
+    <div class="wordmark"><b>HSG</b> · Research</div>
+    <div class="topctrl">
+      <div id="viewSwitch" role="group" aria-label="Layout view">
+        <button id="viewDesktop" aria-pressed="false">Desktop</button>
+        <button id="viewMobile" aria-pressed="false">Mobile</button>
+      </div>
+      <button id="themeToggle" aria-label="Toggle dark mode">◐ Theme</button>
+    </div>
+  </div>
+
+  <header class="hero">
+    <h1>How Accounting Comparability Attracts Foreign Investment in Private Firms</h1>
+    <p class="standfirst">Private firms make up most of the economy, yet they have no stock price, no
+      analyst coverage, and accounts written under local rules that make it difficult for foreign investors to benchmark.
+      In 2010, Germany aligned those rules with the international accounting standards. Our study, published in
+      <em>Management Science</em>, measures how foreign investment responded.</p>
+    <div class="heronum">
+      <div class="lede">Up to</div>
+      <div class="num"><span id="counter" data-target="12.5">0.0</span> billion euros</div>
+      <p class="qual">in additional foreign investment across 4,901 German private firms
+        (estimated range: EUR&nbsp;3.8–12.5&nbsp;bn).</p>
+    </div>
+    <p class="scrollcue">↓ The three main findings</p>
+  </header>
+
+  <!-- ============ M1 ============ -->
+  <section class="msg" id="m1" aria-labelledby="m1h">
+    <p class="kick">Finding 1 · The effect of the reform</p>
+    <h2 id="m1h">The reform brought German private firms an estimated EUR 3.8–12.5 billion in additional foreign equity investment.</h2>
+    <p class="standfirst2">In 2010, Germany's <em>BilMoG</em> reform aligned private-firm accounting
+      rules with international standards (IFRS). Foreign ownership rose by 2–8 percentage points
+      relative to firms the reform did not affect; the estimate is positive and statistically
+      significant in every specification.</p>
+    <div class="chartcard">
+      <p class="charttitle">Additional foreign ownership of German private firms after the reform</p>
+      <p class="chartsub">Difference-in-differences estimates, percentage points · capsules: 95% confidence intervals · second axis: EUR billions</p>
+      <figure role="img" aria-label="Dot chart with confidence intervals: twelve difference-in-differences estimates of the reform's effect on foreign ownership, six research designs against Austrian private firms (plus 2.4 to plus 5.3 points) and six against German public firms (plus 2.6 to plus 8.0 points); a shaded band marks the full span from plus 2.4 to plus 8.0 percentage points, and a secondary axis re-expresses the effect in euro billions; all estimates are positive and statistically significant.">
+        <svg id="chart1" viewBox="0 0 720 470" preserveAspectRatio="xMidYMid meet"></svg>
+      </figure>
+      <details class="tabletwin"><summary>View the data as a table</summary>
+        <table><caption class="vh">Difference-in-differences estimates by research design and control group</caption>
+          <tr><th scope="col">Control group</th><th scope="col">Research design</th><th scope="col">Estimate (pp)</th><th scope="col">95% CI</th></tr>
+          <tr><td>Austrian private firms</td><td>Base regression</td><td>+3.0</td><td>2.1 to 4.0</td></tr>
+          <tr><td>Austrian private firms</td><td>Controls + industry FE</td><td>+2.8</td><td>1.8 to 3.8</td></tr>
+          <tr><td>Austrian private firms</td><td>Entropy balancing</td><td>+4.1</td><td>2.6 to 5.6</td></tr>
+          <tr><td>Austrian private firms</td><td>Coarsened exact matching</td><td>+2.4</td><td>1.4 to 3.4</td></tr>
+          <tr><td>Austrian private firms</td><td>Propensity score matching</td><td>+5.3</td><td>3.7 to 6.8</td></tr>
+          <tr><td>Austrian private firms</td><td>EB &amp; PSM combined</td><td>+3.5</td><td>1.7 to 5.2</td></tr>
+          <tr><td>German public firms</td><td>Base regression</td><td>+4.4</td><td>2.1 to 6.7</td></tr>
+          <tr><td>German public firms</td><td>Controls + industry FE</td><td>+3.5</td><td>1.2 to 5.7</td></tr>
+          <tr><td>German public firms</td><td>Entropy balancing</td><td>+8.0</td><td>2.8 to 13.2</td></tr>
+          <tr><td>German public firms</td><td>Coarsened exact matching</td><td>+2.8</td><td>1.1 to 4.5</td></tr>
+          <tr><td>German public firms</td><td>Propensity score matching</td><td>+2.6</td><td>0.7 to 4.4</td></tr>
+          <tr><td>German public firms</td><td>EB &amp; PSM combined</td><td>+4.6</td><td>1.4 to 7.9</td></tr>
+        </table>
+      </details>
+    </div>
+    <p class="bodycopy">The comparison groups are Austrian private firms, whose accounting rules were
+      nearly identical to Germany's and did not change, and German public firms, which already
+      reported under IFRS. Across six research designs and both control groups, the estimates range
+      from +2.4 to +8.0 percentage points, corresponding to roughly <b>EUR 3.8–12.5 billion</b> of
+      additional foreign equity investment.</p>
+  </section>
+
+  <!-- ============ M2 ============ -->
+  <section class="msg" id="m2" aria-labelledby="m2h">
+    <p class="kick">Finding 2 · Where the new investment came from</p>
+    <h2 id="m2h">The increase came from first-time foreign owners acquiring control: a rise of 54 percentage points.</h2>
+    <p class="standfirst2">Existing foreign shareholders left their stakes essentially unchanged. The
+      increase came from investors entering for the first time, and these new owners typically
+      acquired control.</p>
+    <div class="chartcard">
+      <p class="charttitle" id="c2title">Average change in foreign ownership around the reform</p>
+      <p class="chartsub">German private firms, percentage points</p>
+      <figure role="img" aria-label="Bar chart: firms with no prior foreign owner gained 53.9 percentage points of foreign ownership; firms with an existing foreign owner were essentially unchanged at minus 2.9 points.">
+        <svg id="chart2" viewBox="0 0 720 360" preserveAspectRatio="xMidYMid meet"></svg>
+      </figure>
+      <div class="viewtoggle" role="group" aria-label="Choose breakdown">
+        <button id="v2a" aria-pressed="true">New vs. existing owners</button>
+        <button id="v2b" aria-pressed="false">By investor type</button>
+      </div>
+      <details class="tabletwin"><summary>View the data as a table</summary>
+        <table><caption class="vh">Change in foreign ownership by group</caption>
+          <tr><th scope="col">Group</th><th scope="col">Change (pp)</th></tr>
+          <tr><td>Firms with no foreign owner before 2010</td><td>+53.9</td></tr>
+          <tr><td>Firms with an existing foreign owner</td><td>−2.9 (essentially unchanged)</td></tr>
+          <tr><td>Foreign corporations (relative change)</td><td>+6.2</td></tr>
+          <tr><td>Families &amp; individual owners (relative change)</td><td>−5.4</td></tr>
+        </table>
+      </details>
+    </div>
+    <p class="bodycopy">The typical stake taken by these new investors was <b>48–56%</b>, a controlling
+      position. Foreign <em>corporations</em> gained ownership (+6.2 pp) relative to owner families
+      and individuals (−5.4 pp).</p>
+  </section>
+
+  <!-- ============ M3 ============ -->
+  <section class="msg" id="m3" aria-labelledby="m3h">
+    <p class="kick">Finding 3 · Which investors responded</p>
+    <h2 id="m3h">Only investors already familiar with the rules increased their ownership — up 10 percentage points.</h2>
+    <p class="standfirst2">An explanation based on taxes or the financial crisis would affect all
+      investors alike. The response instead tracks how familiar each group already was with
+      IFRS-style accounts.</p>
+    <div class="chartcard">
+      <p class="charttitle">Post-reform change in ownership, by the investor's home accounting standard</p>
+      <p class="chartsub">Foreign investors in German private firms, percentage points, relative to the
+        reference group of EU investors already under IFRS (+3.5 pp)</p>
+      <figure role="img" aria-label="Horizontal bar chart: investors from IFRS-converging countries plus 10.3 points, from IFRS countries plus 7.3 points; investors using US GAAP or other local rules show no effect.">
+        <svg id="chart3" viewBox="0 0 720 300" preserveAspectRatio="xMidYMid meet"></svg>
+      </figure>
+      <details class="tabletwin"><summary>View the data as a table</summary>
+        <table><caption class="vh">Change by investor home accounting standard</caption>
+          <tr><th scope="col">Investor's home standard</th><th scope="col">Change (pp)</th></tr>
+          <tr><td>Converging to IFRS (e.g., China, Singapore)</td><td>+10.3</td></tr>
+          <tr><td>IFRS (e.g., France, UK, Netherlands)</td><td>+7.3</td></tr>
+          <tr><td>US GAAP</td><td>no statistically significant effect</td></tr>
+          <tr><td>Other local rules</td><td>no statistically significant effect</td></tr>
+        </table>
+      </details>
+    </div>
+  </section>
+
+  <!-- ============ EVIDENCE ============ -->
+  <section class="how" aria-labelledby="howh">
+    <h2 id="howh">The evidence</h2>
+    <details>
+      <summary>The comparison groups</summary>
+      <p>We compared foreign ownership in German private firms before and after the 2010 reform with
+        Austrian private firms and German public firms, which the reform did not affect. Before the
+        reform, all groups moved in parallel; afterwards, only German private firms diverged. This
+        difference-in-differences design isolates the effect of the reform from the financial crisis,
+        the euro, and other conditions affecting all firms alike.</p>
+    </details>
+    <details>
+      <summary>Similar pattern in the United Kingdom</summary>
+      <p>Among 8,056 UK private firms (2014–2023), those that voluntarily adopted IFRS show about
+        5–6 percentage points more foreign ownership than firms remaining on local UK GAAP: the same
+        pattern in a different country and decade. Stricter comparisons of each firm with itself yield
+        smaller effects (about 2–3 points) in the same direction.</p>
+    </details>
+    <details>
+      <summary>The data</summary>
+      <p>Ownership and financial data come from Bureau van Dijk's Orbis database: 4,901 German private
+        firms, 1,382 Austrian private firms, and 129 German public firms over 2006–2013. The full
+        replication package (code and shareable data) accompanies
+        <a href="https://pubsonline.informs.org/doi/10.1287/mnsc.2024.08765">the paper at
+        <em>Management Science</em></a>.</p>
+    </details>
+  </section>
+
+  <!-- ============ POLICY ============ -->
+  <section class="policy" aria-labelledby="polh">
+    <h2 id="polh">Relevance for policy and practice</h2>
+    <div class="pcards">
+      <div class="pcard">
+        <h3>United States · FASB</h3>
+        <p>Since 2013, US standard setters have simplified private-firm GAAP <em>away</em> from public-firm
+          rules ("big GAAP vs. little GAAP"). This evidence indicates that the divergence has a
+          measurable cost in forgone foreign capital.</p>
+      </div>
+      <div class="pcard">
+        <h3>Europe · EFRAG &amp; EU</h3>
+        <p>As the EU weighs reducing reporting burdens for private firms, the debate focuses on what
+          accounting rules cost. Our findings add the other side of the ledger: comparable accounts
+          attract cross-border investment.</p>
+      </div>
+      <div class="pcard">
+        <h3>Owners &amp; advisors</h3>
+        <p>For owners considering succession or growth capital, accounts that a foreign buyer can compare
+          widen the pool of potential buyers. Where a German private firm has a foreign owner, that
+          owner holds on average at least 67% of the shares, a controlling position.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <b>Cross-Border Investments in Private Firms: The Benefits of Comparability for Foreign Investors</b>
+    <div class="authors">Kristian D. Allee (University of Arkansas) · Tami Dinh (University of
+      St. Gallen) · Arthur Stenzel (University of St. Gallen &amp; NHH Norwegian School of Economics)</div>
+    <div class="links">
+      <a href="https://doi.org/10.1287/mnsc.2024.08765">Paper (Management Science)</a>
+      <a href="https://www.alexandria.unisg.ch">Alexandria (open access)</a>
+      <a href="https://www.unisg.ch">University of St. Gallen</a>
+    </div>
+    <p class="cite">Suggested citation: Allee, K. D., T. Dinh, A. Stenzel. 2026. Cross-border investments
+      in private firms: The benefits of comparability for foreign investors. <em>Management Science</em>,
+      Articles in Advance. doi.org/10.1287/mnsc.2024.08765</p>
+  </footer>
+</div>
+
+<div id="tip" role="status" aria-hidden="true"></div>
+
+<script>
+"use strict";
+/* ============ data — sources in comments ============ */
+// DiD estimates: Table 9, Panels A and B, of the published paper (DE-Private × Post).
+// Replication package: 003_tables/004_Table4_DiD_AT_vs_DE.txt. 95% CI = estimate ± 1.96 · estimate/t.
+const SPECS = [
+  {spec:"Base regression",           a:{v:3.047, t:5.998, sig:"1%"}, b:{v:4.401, t:3.786, sig:"1%"}},
+  {spec:"Controls + industry FE",    a:{v:2.803, t:5.695, sig:"1%"}, b:{v:3.479, t:3.008, sig:"5%"}},
+  {spec:"Entropy balancing",         a:{v:4.115, t:5.334, sig:"1%"}, b:{v:7.989, t:2.997, sig:"5%"}},
+  {spec:"Coarsened exact matching",  a:{v:2.399, t:4.927, sig:"1%"}, b:{v:2.775, t:3.190, sig:"5%"}},
+  {spec:"Propensity score matching", a:{v:5.266, t:6.554, sig:"1%"}, b:{v:2.589, t:2.752, sig:"5%"}},
+  {spec:"EB & PSM combined",         a:{v:3.453, t:3.942, sig:"1%"}, b:{v:4.636, t:2.789, sig:"5%"}},
+];
+// Doors: paper Figure 2 (+53.9 / -2.9); breakdown: Table 11 (+6.164 / -5.358)
+const DOORS = {
+  main: [
+    {label:"No foreign owner before 2010", v:53.9, hue:"accent",
+     tip:"Firms with no prior foreign owner gained on average 53.9 points of foreign ownership."},
+    {label:"Existing foreign owner", v:-2.9, hue:"deemph", note:"essentially unchanged",
+     tip:"Firms that already had a foreign owner: −2.9 points, essentially unchanged."},
+  ],
+  who: [
+    {label:"Foreign corporations", v:6.2, hue:"accent",
+     tip:"Corporate foreign investors: +6.2 points relative increase after the reform (paper Table 11)."},
+    {label:"Families & individual owners", v:-5.4, hue:"deemph",
+     tip:"Owner families and individuals show a 5.4-point relative decrease."},
+  ],
+};
+// Ladder: Table 10 — POST × Convergence 10.323, POST × IFRS 7.263; US/local GAAP n.s.
+const LADDER = [
+  {label:"Converging to IFRS", v:10.3, tip:"Investors from countries whose national rules were converging to IFRS (e.g., China, Singapore): +10.3 pp."},
+  {label:"IFRS", v:7.3, tip:"Investors from IFRS countries (e.g., France, UK, Netherlands): +7.3 pp."},
+  {label:"US GAAP", v:null, tip:"Investors reporting under US GAAP: no statistically significant change."},
+  {label:"Other local rules", v:null, tip:"Investors from local-GAAP countries with no IFRS link: no significant change."},
+];
+
+const REDUCED = matchMedia("(prefers-reduced-motion: reduce)").matches;
+const SVGNS = "http://www.w3.org/2000/svg";
+const tip = document.getElementById("tip");
+
+function el(name, attrs, parent){
+  const n = document.createElementNS(SVGNS, name);
+  for(const k in attrs) n.setAttribute(k, attrs[k]);
+  if(parent) parent.appendChild(n);
+  return n;
+}
+function css(v){ return getComputedStyle(document.documentElement).getPropertyValue(v).trim(); }
+function showTip(html, x, y){
+  tip.innerHTML = html;
+  tip.style.opacity = 1;
+  const w = tip.offsetWidth, h = tip.offsetHeight;
+  tip.style.left = Math.min(Math.max(8, x - w/2), innerWidth - w - 8) + "px";
+  tip.style.top = (y - h - 14 < 8 ? y + 18 : y - h - 14) + "px";
+  tip.setAttribute("aria-hidden","false");
+}
+function hideTip(){ tip.style.opacity = 0; tip.setAttribute("aria-hidden","true"); }
+
+function onVisible(node, fn){
+  if(REDUCED){ fn(); return; }
+  const io = new IntersectionObserver(es => {
+    es.forEach(e => { if(e.isIntersecting){ fn(); io.disconnect(); } });
+  }, {threshold: 0.4});
+  io.observe(node);
+}
+
+/* ============ hero counter ============ */
+(function(){
+  const c = document.getElementById("counter");
+  const target = parseFloat(c.dataset.target);
+  onVisible(c, () => {
+    if(REDUCED){ c.textContent = target.toFixed(1); return; }
+    const t0 = performance.now(), dur = 1400;
+    (function step(t){
+      const p = Math.min(1, (t - t0)/dur), e = 1 - Math.pow(1 - p, 3);
+      c.textContent = (target * e).toFixed(1);
+      if(p < 1) requestAnimationFrame(step);
+    })(t0);
+  });
+})();
+
+/* ============ chart 1: DiD estimates (Table 9), refined estimate ladder ============ */
+(function(){
+  const svg = document.getElementById("chart1");
+  const W = 720, H = 470, m = {l:206, r:26, t:86, b:40};
+  const x = v => m.l + v / 14 * (W - m.l - m.r);             // domain 0..14 pp
+  const rh = (H - m.t - m.b) / SPECS.length;
+  const ci = d => 1.96 * d.v / d.t;
+  const fmt = v => (v > 0 ? "+" : "") + v.toFixed(1);
+  const MIN_EST = 2.399, MAX_EST = 7.989;
+  const EPP = 32.03e6 * 4901 / 1e9 / 100;                    // EUR bn per pp ≈ 1.57
+
+  // consensus band (behind everything)
+  el("rect", {x:x(MIN_EST), y:m.t-6, width:x(MAX_EST)-x(MIN_EST), height:H-m.t-m.b+6,
+    rx:8, fill:"var(--wash)"}, svg);
+  el("text", {x:(x(MIN_EST)+x(MAX_EST))/2, y:m.t-14, "text-anchor":"middle",
+    "font-size":12.5, "font-weight":600, fill:"var(--accent-ink)"}, svg)
+    .textContent = "all twelve estimates: +2.4 to +8.0 pp";
+
+  // secondary axis: the same effect in EUR billions
+  el("text", {x:m.l-12, y:34, "text-anchor":"end","font-size":11.5, fill:"var(--muted)"}, svg).textContent = "≈ EUR bn";
+  [5,10,15,20].forEach(e => {
+    const px = x(e / EPP);
+    if(px > W - m.r) return;
+    el("line", {x1:px, x2:px, y1:40, y2:46, stroke:"var(--muted)","stroke-width":1}, svg);
+    el("text", {x:px, y:34, "text-anchor":"middle","font-size":11.5, fill:"var(--muted)"}, svg).textContent = e;
+  });
+  el("line", {x1:x(0), x2:W-m.r, y1:46, y2:46, stroke:"var(--hair)","stroke-width":1}, svg);
+
+  // pp grid + axis
+  [0,4,8,12].forEach(v => {
+    el("line", {x1:x(v), x2:x(v), y1:m.t, y2:H-m.b, stroke:"var(--grid)","stroke-width":1}, svg);
+    el("text", {x:x(v), y:H-m.b+20, "text-anchor":"middle","font-size":12, fill:"var(--muted)"}, svg).textContent = "+" + v + " pp";
+  });
+  el("line", {x1:x(0), x2:x(0), y1:m.t, y2:H-m.b, stroke:"var(--muted)","stroke-width":1.2}, svg);
+
+  // legend, top-right (control group carried by color + shape; also named in tooltips and the table)
+  const lx = x(9.2);
+  el("circle", {cx:lx, cy:60, r:5.5, fill:"var(--accent)"}, svg);
+  el("text", {x:lx+10, y:64, "font-size":12.5, fill:"var(--ink2)"}, svg).textContent = "vs. Austrian private firms";
+  el("path", {d:`M${lx},${74} L${lx+6},${80} L${lx},${86} L${lx-6},${80} Z`, fill:"var(--muted)"}, svg);
+  el("text", {x:lx+10, y:84, "font-size":12.5, fill:"var(--ink2)"}, svg).textContent = "vs. German public firms";
+
+  // rows: one specification, two estimates (A above, B below); CI capsules under the dots
+  const groups = [];
+  SPECS.forEach((s, i) => {
+    const cy = m.t + rh * i + rh / 2;
+    el("text", {x:m.l-12, y:cy+4, "text-anchor":"end","font-size":13.5, fill:"var(--ink2)"}, svg).textContent = s.spec;
+    const g = el("g", {}, svg);
+    if(!REDUCED) g.style.opacity = 0;
+    [ {d:s.a, dy:-9, color:"var(--accent)", shape:"c", grp:"vs. Austrian private firms"},
+      {d:s.b, dy: 9, color:"var(--muted)",  shape:"d", grp:"vs. German public firms"} ].forEach(e => {
+      const yy = cy + e.dy, lo = e.d.v - ci(e.d), hi = e.d.v + ci(e.d);
+      el("rect", {x:x(lo), y:yy-5, width:x(hi)-x(lo), height:10, rx:5,
+        fill:e.color, opacity:.18}, g);
+      if(e.shape === "c"){
+        el("circle", {cx:x(e.d.v), cy:yy, r:5.5, fill:e.color, stroke:"var(--card)", "stroke-width":1.5}, g);
+      } else {
+        el("path", {d:`M${x(e.d.v)},${yy-6} L${x(e.d.v)+6},${yy} L${x(e.d.v)},${yy+6} L${x(e.d.v)-6},${yy} Z`,
+          fill:e.color, stroke:"var(--card)", "stroke-width":1.5}, g);
+      }
+      if(e.d.v === MIN_EST || e.d.v === MAX_EST){
+        el("text", {x:x(e.d.v), y:yy - 11, "text-anchor":"middle","font-size":12.5,
+          "font-weight":700, fill: e.d.v === MIN_EST ? "var(--accent-ink)" : "var(--ink)"}, g)
+          .textContent = fmt(e.d.v) + " pp";
+      }
+      const msg = `<b>${s.spec}</b><br>${e.grp}: <b>${fmt(e.d.v)} pp</b> (95% CI ${fmt(lo)} to ${fmt(hi)}), significant at the ${e.d.sig} level`;
+      const hit = el("rect", {x:8, y:yy-rh/4, width:W-16, height:rh/2, fill:"transparent",
+        tabindex:0, role:"img",
+        "aria-label": `${s.spec}, ${e.grp}: ${fmt(e.d.v)} percentage points, 95% confidence interval ${fmt(lo)} to ${fmt(hi)}, statistically significant at the ${e.d.sig} level`}, svg);
+      hit.addEventListener("mousemove", ev => showTip(msg, ev.clientX, ev.clientY));
+      hit.addEventListener("mouseleave", hideTip);
+      hit.addEventListener("focus", () => { const r = hit.getBoundingClientRect(); showTip(msg, r.left+r.width/2, r.top+30); });
+      hit.addEventListener("blur", hideTip);
+    });
+    groups.push(g);
+  });
+  onVisible(svg, () => {
+    groups.forEach((g, i) => {
+      g.style.transition = `opacity .45s ${i*0.08}s ease-out`;
+      g.style.opacity = 1;
+    });
+  });
+})();
+
+/* ============ chart 2: doors ============ */
+(function(){
+  const svg = document.getElementById("chart2");
+  const W = 720, H = 360, m = {l:46, r:24, t:26, b:56};
+  const y = v => H - m.b - (v + 10) / 70 * (H - m.t - m.b);  // domain -10..60
+  let animated = false;
+
+  function render(data){
+    svg.innerHTML = "";
+    const bars = [];
+    [0,20,40,60].forEach(v => {
+      el("line", {x1:m.l, x2:W-m.r, y1:y(v), y2:y(v), stroke:"var(--grid)","stroke-width":1}, svg);
+      el("text", {x:m.l-8, y:y(v)+4, "text-anchor":"end","font-size":12, fill:"var(--muted)"}, svg).textContent = v;
+    });
+    el("line", {x1:m.l, x2:W-m.r, y1:y(0), y2:y(0), stroke:"var(--muted)","stroke-width":1.2}, svg);
+    const slots = [W*0.32, W*0.68];
+    data.forEach((d, i) => {
+      const bw = 44, cx = slots[i];
+      const y0 = y(Math.max(0, d.v)), y1 = y(Math.min(0, d.v));
+      const hgt = Math.abs(y0 - y1);
+      const fill = d.hue === "accent" ? "var(--accent)" : "var(--deemph)";
+      const bar = el("path", {fill}, svg);
+      const r = Math.min(4, hgt);
+      // rounded at the data end, square at the baseline
+      bar.setAttribute("d", d.v >= 0
+        ? `M${cx-bw/2},${y(0)} V${y0+r} Q${cx-bw/2},${y0} ${cx-bw/2+r},${y0} H${cx+bw/2-r} Q${cx+bw/2},${y0} ${cx+bw/2},${y0+r} V${y(0)} Z`
+        : `M${cx-bw/2},${y(0)} V${y1-r} Q${cx-bw/2},${y1} ${cx-bw/2+r},${y1} H${cx+bw/2-r} Q${cx+bw/2},${y1} ${cx+bw/2},${y1-r} V${y(0)} Z`);
+      if(!REDUCED && !animated){
+        bar.style.transformOrigin = `0 ${y(0)}px`;
+        bar.style.transform = "scaleY(0)";
+        bar.style.transition = `transform .45s ${i*0.12}s ease-out`;
+        bars.push(bar);
+      }
+      const val = el("text", {x:cx, y: d.v>=0 ? y0-10 : y1+18, "text-anchor":"middle",
+        "font-size":16, "font-weight":700, fill:"var(--ink)"}, svg);
+      val.textContent = (d.v>0?"+":"−") + Math.abs(d.v).toFixed(1) + " pp";
+      if(d.note){
+        el("text", {x:cx, y: (d.v>=0 ? y0-10 : y1+18) + 16, "text-anchor":"middle",
+          "font-size":12, fill:"var(--muted)"}, svg).textContent = d.note;
+      }
+      const lines = d.label.split(" & ");
+      el("text", {x:cx, y:H-m.b+24, "text-anchor":"middle","font-size":13.5, fill:"var(--ink2)"}, svg)
+        .textContent = d.label.length > 26 ? d.label.slice(0, d.label.lastIndexOf(" ", 26)) : d.label;
+      if(d.label.length > 26)
+        el("text", {x:cx, y:H-m.b+40, "text-anchor":"middle","font-size":13.5, fill:"var(--ink2)"}, svg)
+          .textContent = d.label.slice(d.label.lastIndexOf(" ", 26)+1);
+      const hit = el("rect", {x:cx-60, y:m.t, width:120, height:H-m.t-m.b,
+        fill:"transparent", tabindex:0, role:"img", "aria-label": `${d.label}: ${d.tip}`}, svg);
+      hit.addEventListener("mousemove", e => showTip(`<b>${d.label}</b><br>${d.tip}`, e.clientX, e.clientY));
+      hit.addEventListener("mouseleave", hideTip);
+      hit.addEventListener("focus", () => { const r2 = hit.getBoundingClientRect(); showTip(`<b>${d.label}</b><br>${d.tip}`, r2.left+r2.width/2, r2.top+60); });
+      hit.addEventListener("blur", hideTip);
+    });
+    if(bars.length) onVisible(svg, () => {
+      animated = true;
+      bars.forEach(bar => { bar.style.transform = "scaleY(1)"; });
+    });
+  }
+
+  render(DOORS.main);
+
+  const a = document.getElementById("v2a"), b = document.getElementById("v2b");
+  const title = document.getElementById("c2title");
+  function pick(which){
+    a.setAttribute("aria-pressed", which === "main");
+    b.setAttribute("aria-pressed", which === "who");
+    title.textContent = which === "main"
+      ? "Average change in foreign ownership around the reform"
+      : "Relative post-reform change in ownership, by investor type";
+    animated = true;               // no re-growth on toggle
+    render(DOORS[which]);
+  }
+  a.addEventListener("click", () => pick("main"));
+  b.addEventListener("click", () => pick("who"));
+})();
+
+/* ============ chart 3: familiarity ladder ============ */
+(function(){
+  const svg = document.getElementById("chart3");
+  const W = 720, H = 300, m = {l:190, r:80, t:14, b:34};
+  const x = v => m.l + v / 12 * (W - m.l - m.r);
+  const rows = LADDER.length, rh = (H - m.t - m.b) / rows;
+
+  [0,4,8,12].forEach(v => {
+    el("line", {x1:x(v), x2:x(v), y1:m.t, y2:H-m.b, stroke:"var(--grid)","stroke-width":1}, svg);
+    el("text", {x:x(v), y:H-m.b+20, "text-anchor":"middle","font-size":12, fill:"var(--muted)"}, svg).textContent = "+" + v + " pp";
+  });
+  el("line", {x1:x(0), x2:x(0), y1:m.t, y2:H-m.b, stroke:"var(--muted)","stroke-width":1.2}, svg);
+
+  LADDER.forEach((d, i) => {
+    const cy = m.t + rh * i + rh/2;
+    el("text", {x:m.l-12, y:cy+4, "text-anchor":"end","font-size":13.5, fill:"var(--ink2)"}, svg).textContent = d.label;
+    let barEnd = x(0.35);
+    if(d.v !== null){
+      const bh = 16, r = 4, x1 = x(d.v);
+      const bar = el("path", {fill:"var(--accent)"}, svg);
+      bar.setAttribute("d", `M${x(0)},${cy-bh/2} H${x1-r} Q${x1},${cy-bh/2} ${x1},${cy-bh/2+r} V${cy+bh/2-r} Q${x1},${cy+bh/2} ${x1-r},${cy+bh/2} H${x(0)} Z`);
+      if(!REDUCED){
+        bar.style.transformOrigin = `${x(0)}px 0`;
+        bar.style.transform = "scaleX(0)";
+        bar.style.transition = `transform .4s ${i*0.12}s ease-out`;
+      }
+      onVisible(svg, () => { bar.style.transform = "scaleX(1)"; });
+      const val = el("text", {x:x1+10, y:cy+4.5, "font-size":14, "font-weight":700, fill:"var(--ink)"}, svg);
+      val.textContent = "+" + d.v.toFixed(1);
+      barEnd = x1;
+    } else {
+      el("rect", {x:x(0), y:cy-8, width:3, height:16, fill:"var(--deemph)"}, svg);
+      el("text", {x:x(0)+12, y:cy+4.5, "font-size":13, "font-style":"italic", fill:"var(--muted)"}, svg)
+        .textContent = "no statistically significant effect";
+    }
+    const hit = el("rect", {x:8, y:cy-rh/2, width:W-16, height:rh, fill:"transparent",
+      tabindex:0, role:"img", "aria-label": `${d.label}: ${d.tip}`}, svg);
+    hit.addEventListener("mousemove", e => showTip(`<b>${d.label}</b><br>${d.tip}`, e.clientX, e.clientY));
+    hit.addEventListener("mouseleave", hideTip);
+    hit.addEventListener("focus", () => { const r = hit.getBoundingClientRect(); showTip(`<b>${d.label}</b><br>${d.tip}`, r.left+r.width/2, r.top+30); });
+    hit.addEventListener("blur", hideTip);
+  });
+})();
+
+/* ============ view switch (desktop / mobile) ============ */
+(function(){
+  const bd = document.getElementById("viewDesktop"), bm = document.getElementById("viewMobile");
+  const mq = matchMedia("(max-width: 640px)");
+  function reflect(){
+    const v = document.documentElement.dataset.view || (mq.matches ? "mobile" : "desktop");
+    bd.setAttribute("aria-pressed", v === "desktop");
+    bm.setAttribute("aria-pressed", v === "mobile");
+  }
+  function pin(v){
+    document.documentElement.dataset.view = v;
+    try { localStorage.setItem("view", v); } catch(e){}
+    reflect();
+  }
+  let stored = null;
+  try { stored = localStorage.getItem("view"); } catch(e){}
+  if(stored === "desktop" || stored === "mobile") document.documentElement.dataset.view = stored;
+  bd.addEventListener("click", () => pin("desktop"));
+  bm.addEventListener("click", () => pin("mobile"));
+  if(mq.addEventListener) mq.addEventListener("change", reflect);
+  reflect();
+})();
+
+/* ============ theme toggle ============ */
+(function(){
+  const btn = document.getElementById("themeToggle");
+  let stored = null;
+  try { stored = localStorage.getItem("theme"); } catch(e){}
+  if(stored) document.documentElement.dataset.theme = stored;
+  btn.addEventListener("click", () => {
+    const cur = document.documentElement.dataset.theme
+      || (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    const next = cur === "dark" ? "light" : "dark";
+    document.documentElement.dataset.theme = next;
+    try { localStorage.setItem("theme", next); } catch(e){}
+  });
+})();
+</script>
+<!--ARTIFACT-END-->
+</body>
+</html>

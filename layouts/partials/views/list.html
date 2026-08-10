@@ -60,6 +60,15 @@
   </div>
   {{ end }}
 
+  {{/* Optional chart card below the entry, from the page's `list_image` front matter */}}
+  {{ with $item.Params.list_image }}
+  <div class="list-image">
+    <a href="{{ .link | default $item.RelPermalink }}">
+      <img src="{{ .src | relURL }}" {{ with .width }}width="{{ . }}"{{ end }} {{ with .height }}height="{{ . }}"{{ end }} alt="{{ .alt | default $item.Title }}" loading="lazy">
+    </a>
+  </div>
+  {{ end }}
+
   <!-- MANFRED: Einbettung eines Youtube-Videos, sonfern ein Link beim Paper existiert und der parameter "show_video" auf true gesetzt wurde. -->
   {{ if and $show_video $item.Params.youtube_link }}
   <div class="video-container">
